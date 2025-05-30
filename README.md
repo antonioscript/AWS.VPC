@@ -1,85 +1,89 @@
-# AWS.VPC
+# AWS.VPC  
 Theoretical repository on how VPC works in AWS
 
-# Introdução à VPC na AWS
+# Introduction to AWS VPC
 
-## O que é VPC?
+## What is a VPC?
 
-**VPC (Virtual Private Cloud)** é uma rede privada isolada dentro da AWS, onde você pode lançar recursos da nuvem como EC2, RDS, Lambda, etc. Você controla totalmente:
+**VPC (Virtual Private Cloud)** is an isolated private network within AWS where you can launch cloud resources such as EC2, RDS, Lambda, etc. You have full control over:
 
-- Faixas de IP
-- Sub-redes
-- Roteamento
-- Firewalls (Security Groups e NACLs)
-- Conectividade com a internet e redes locais
+- IP ranges  
+- Subnets  
+- Routing  
+- Firewalls (Security Groups and NACLs)  
+- Internet and on-premise connectivity  
 
 ---
 
-## Componentes Fundamentais da VPC
+## Core Components of a VPC
 
-### 1. CIDR Block
-Define a faixa de IPs da sua VPC. Exemplo:
+### 1. CIDR Block  
+Defines the IP range of your VPC. Example:  
 
-_10.0.0.0/16_
+_10.0.0.0/16_  
 
-Permite até 65.536 endereços IPs.
+Allows up to 65,536 IP addresses.
 
+This means:
+
+- `10.0.0.0` is the starting IP address  
+- `/16` indicates the number of bits used for the network prefix  
+- The remaining bits are used for host addresses
+
+In this example, `/16` allows up to **65,536 IP addresses** (from `10.0.0.0` to `10.0.255.255`).
+
+> The smaller the prefix (e.g., `/16`), the more IP addresses are available.  
+> The larger the prefix (e.g., `/28`), the fewer IPs are available.
+
+This IP range defines the total address space available to create subnets within your VPC.
 ---
 
 ### 2. Subnets
 
-Sub-redes dentro da VPC. Podem ser:
+Sub-networks within the VPC. They can be:
 
-- **Public Subnet** – com acesso à internet
-- **Private Subnet** – sem acesso direto à internet
+- **Public Subnet** – with internet access  
+- **Private Subnet** – without direct internet access  
 
-Exemplo:
-</br>
-
-_Public: 10.0.1.0/24_
-
+Example:  
+</br>  
+_Public: 10.0.1.0/24_  
 _Private: 10.0.2.0/24_
 
+---
+
+### 3. Internet Gateway (IGW)  
+Allows instances in public subnets to communicate with the internet.
 
 ---
 
-### 3. Internet Gateway (IGW)
-
-Permite que instâncias em subnets públicas se comuniquem com a internet.
-
----
-
-### 4. Route Tables
-
-Define regras de roteamento. Associada a subnets para definir como o tráfego deve ser direcionado.
+### 4. Route Tables  
+Define routing rules. Associated with subnets to determine how traffic should be directed.
 
 ---
 
-### 5. NAT Gateway
-
-Permite que instâncias em subnets privadas **acessem a internet** (ex: para atualizações), sem serem acessíveis de fora.
-
----
-
-### 6. Security Groups vs NACLs
-
-- **Security Groups**: Firewall por instância (ex: EC2). Stateful.
-- **NACLs (Network ACLs)**: Firewall por subnet. Stateless.
+### 5. NAT Gateway  
+Allows instances in private subnets **to access the internet** (e.g., for updates), without being accessible from outside.
 
 ---
 
-## Exemplo de Arquitetura
+### 6. Security Groups vs NACLs  
 
-1. Criar VPC com `10.0.0.0/16`
-2. Criar duas subnets:
-   - Pública: `10.0.1.0/24` (servidores web)
-   - Privada: `10.0.2.0/24` (banco de dados)
-3. Associar um Internet Gateway à VPC
-4. Criar uma tabela de rotas para a subnet pública apontando para o IGW
-5. Criar um NAT Gateway na subnet pública
-6. Configurar a rota da subnet privada para passar pelo NAT Gateway
-7. Usar Security Groups e NACLs para proteger os recursos
+- **Security Groups**: Firewall at the instance level (e.g., EC2). *Stateful*.  
+- **NACLs (Network ACLs)**: Firewall at the subnet level. *Stateless*.
 
 ---
 
+## Example Architecture
 
+1. Create a VPC with `10.0.0.0/16`  
+2. Create two subnets:  
+   - Public: `10.0.1.0/24` (web servers)  
+   - Private: `10.0.2.0/24` (database)  
+3. Attach an Internet Gateway to the VPC  
+4. Create a route table for the public subnet pointing to the IGW  
+5. Create a NAT Gateway in the public subnet  
+6. Set the private subnet's route to go through the NAT Gateway  
+7. Use Security Groups and NACLs to protect the resources  
+
+---
