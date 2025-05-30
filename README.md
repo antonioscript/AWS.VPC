@@ -34,9 +34,11 @@ Sub-redes dentro da VPC. Podem ser:
 - **Private Subnet** – sem acesso direto à internet
 
 Exemplo:
-_
-Public: 10.0.1.0/24
-Private: 10.0.2.0/24_
+</br>
+
+_Public: 10.0.1.0/24_
+
+_Private: 10.0.2.0/24_
 
 
 ---
