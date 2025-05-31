@@ -208,8 +208,11 @@ Allows instances in private subnets **to access the internet** (e.g., for update
 ---
 
 ### Security Groups
+</br>
 
 > Security Groups are associated with the resources of that subnet/vpc
+
+</br>
 
 ![image](https://github.com/user-attachments/assets/88bc62ea-f26d-47eb-8380-515fba0d9a4e)
 
@@ -220,14 +223,17 @@ Allows instances in private subnets **to access the internet** (e.g., for update
 
 ----
 
-
+</br>
 
 - All Security Grup belongs to a single VPC
 - Security Grup cannot be used in another VPC (not even in the same region).
 - A VPC can have multiple Security Groups
-  
+
+</br>
 > Each resource can use more than one Security Group.For example, an EC2 instance may have up to 5 SGs associated at the same time. The rules of all SGs apply together (are combined).
 
+
+</br>
 
 ![image](https://github.com/user-attachments/assets/8ef988ca-ab45-4f75-a2b5-f071f326cbe4)
 
@@ -235,9 +241,16 @@ Allows instances in private subnets **to access the internet** (e.g., for update
 
 - Inbound Rules: Tells which rules are going to be for those who are trying to access a certain resource in a security group
 - Outbound Rules: Tells the rules that this feature has to have when trying to access something out
+- 
+</br>
+
+![image](https://github.com/user-attachments/assets/e128501e-9378-4182-adae-5743a95324a0)
 
 
-Nessa imagem, em INbound Rules, apenas o meu IP pode acessar os serviços que estão dentro daquele security group
+----
+
+
+Nessa imagem, em Inbound Rules, quando o tipo for MySQL, apenas o meu IP pode acessar os serviços que estão dentro daquele security group
 
 
 
