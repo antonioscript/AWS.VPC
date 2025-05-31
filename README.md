@@ -5,7 +5,9 @@ This repository provides a clear and structured overview of how Virtual Private 
 # Introduction to AWS VPC
 </br>
 
-![image](https://github.com/user-attachments/assets/47a33abc-28cc-408a-9236-713d81d1d8e0)
+
+
+![image](https://github.com/user-attachments/assets/f3084062-188e-4fe9-80db-b14bf67a7b5e)
 
 </br>
 
