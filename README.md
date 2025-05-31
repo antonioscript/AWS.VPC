@@ -145,6 +145,12 @@ Allows instances in private subnets **to access the internet** (e.g., for update
 
 ### Subnets
 
+![image](https://github.com/user-attachments/assets/fab77381-4760-41ea-a8d6-5f4acb104108)
+
+</br>
+
+![image](https://github.com/user-attachments/assets/a9e18aec-630b-49fa-a609-976fda67f133)
+
 
 ## References
 
