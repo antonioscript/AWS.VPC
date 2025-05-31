@@ -255,6 +255,12 @@ Allows instances in private subnets **to access the internet** (e.g., for update
 
 ----
 
+![image](https://github.com/user-attachments/assets/6681a6de-9144-4d32-a312-7985bc7e4b17)
+
+
+
+----
+
 </br>
 
 - All Security Grup belongs to a single VPC
@@ -274,8 +280,8 @@ Allows instances in private subnets **to access the internet** (e.g., for update
 
 ----
 
-- Inbound Rules: Tells which rules are going to be for those who are trying to access a certain resource in a security group
-- Outbound Rules: Tells the rules that this feature has to have when trying to access something out
+- **Inbound Rules**: Tells which rules are going to be for those who are trying to access a certain resource in a security group
+- **Outbound Rules**: Tells the rules that this feature has to have when trying to access something out
   
 </br>
 
