@@ -318,6 +318,27 @@ Nesse caso eu crio uma nova regra de entrada onde ao invés de eu colocar a orig
 ![image](https://github.com/user-attachments/assets/910b4037-b98a-4eaa-bab5-64a1396cf749)
 
 
+## Bonus
+
+### Accesing Private Resources - Bastion Host (Jump Box)
+
+</br>
+
+> Basically it is an entity outside the network that wants to access a resource in a private subnet. And the way to do this is by accessing public and through the instance of public (which has access to private) makes a call to the private
+
+</br>
+
+![image](https://github.com/user-attachments/assets/5ff2705f-9090-4c0d-b3ed-adb6cf699a55)
+
+----
+
+### VPC Peering
+
+</br>
+
+> Feature that connects VPCs
+
+</br>
 
 
 ## References
