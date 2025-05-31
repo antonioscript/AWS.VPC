@@ -8,6 +8,7 @@ This repository provides a clear and structured overview of how Virtual Private 
 
 
 ![image](https://github.com/user-attachments/assets/f3084062-188e-4fe9-80db-b14bf67a7b5e)
+
 ---
 </br>
 
@@ -48,9 +49,11 @@ This IP range defines the total address space available to create subnets within
 </br>
 
 ![image](https://github.com/user-attachments/assets/58f20c42-f6a3-438a-8a9b-a63132cb113d)
+
 ---
+
 https://cidr.xyz/
----
+
 
 ### 2. Subnets
 > Subnets are usually referring to availability zones. 
@@ -108,7 +111,6 @@ Allows instances in private subnets **to access the internet** (e.g., for update
 
 ![image](https://github.com/user-attachments/assets/0f57f7d5-b097-4393-a2a6-9ced121623e8)
 
-
 ---
 
 ## Example Architecture
@@ -127,6 +129,7 @@ Allows instances in private subnets **to access the internet** (e.g., for update
 ## Console
 
 ![image](https://github.com/user-attachments/assets/f1eaea94-56a6-408d-8502-2c85efa703ea)
+
 ---
 </br>
 
@@ -136,34 +139,45 @@ Allows instances in private subnets **to access the internet** (e.g., for update
 
 ![image](https://github.com/user-attachments/assets/7607b379-8f81-4766-90a8-18ac178431dc)
 
+---
+
 ![image](https://github.com/user-attachments/assets/62f749ae-bba7-46c6-a000-0079847dd9d0)
 
+---
 
 ## Create VPC
 
 ![image](https://github.com/user-attachments/assets/5be98706-eb70-4c7a-9f49-3bb4e5de92c0)
+
 ---
 ### Create Subnets
 
 ![image](https://github.com/user-attachments/assets/fab77381-4760-41ea-a8d6-5f4acb104108)
+
 ---
 </br>
 
 ![image](https://github.com/user-attachments/assets/a9e18aec-630b-49fa-a609-976fda67f133)
+
 ---
 ### Internet Gateway
 
 ![image](https://github.com/user-attachments/assets/1b096fd6-01ca-43e4-a0b5-7b600419c95a)
+
 ---
 #### Atach to VPC
 
 ![image](https://github.com/user-attachments/assets/bbe023b0-9f95-4968-9871-06a17caaff5a)
+
 ---
 ### DNS Hostnames 
 
 ![image](https://github.com/user-attachments/assets/c0b2f2c0-b0db-4e48-8d0b-8944ec0dce7b)
+
 ---
+
 ![image](https://github.com/user-attachments/assets/b5cc0081-367f-4df6-98ab-df9336bdc648)
+
 ---
 
 ### Route Tables
