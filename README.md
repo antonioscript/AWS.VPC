@@ -2,6 +2,11 @@
 Theoretical repository on how VPC works in AWS
 
 # Introduction to AWS VPC
+</br>
+
+![image](https://github.com/user-attachments/assets/47a33abc-28cc-408a-9236-713d81d1d8e0)
+
+</br>
 
 ## What is a VPC?
 
@@ -39,7 +44,8 @@ This IP range defines the total address space available to create subnets within
 ---
 
 ### 2. Subnets
-> Subnets are usually referring to availability zones/data centers
+> Subnets are usually referring to availability zones. 
+In northern virginia has 6 availability zones, so it has 6 subnets by default
 
 </br>
 
