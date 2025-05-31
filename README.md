@@ -230,10 +230,13 @@ Allows instances in private subnets **to access the internet** (e.g., for update
 - A VPC can have multiple Security Groups
 
 </br>
+
 > Each resource can use more than one Security Group.For example, an EC2 instance may have up to 5 SGs associated at the same time. The rules of all SGs apply together (are combined).
 
 
 </br>
+</br>
+
 
 ![image](https://github.com/user-attachments/assets/8ef988ca-ab45-4f75-a2b5-f071f326cbe4)
 
@@ -241,7 +244,7 @@ Allows instances in private subnets **to access the internet** (e.g., for update
 
 - Inbound Rules: Tells which rules are going to be for those who are trying to access a certain resource in a security group
 - Outbound Rules: Tells the rules that this feature has to have when trying to access something out
-- 
+  
 </br>
 
 ![image](https://github.com/user-attachments/assets/e128501e-9378-4182-adae-5743a95324a0)
@@ -250,7 +253,32 @@ Allows instances in private subnets **to access the internet** (e.g., for update
 ----
 
 
-Nessa imagem, em Inbound Rules, quando o tipo for MySQL, apenas o meu IP pode acessar os serviços que estão dentro daquele security group
+> In this image, in Inbound Rules, when the type is MySQL, only my IP can access the services that are within that security group
+
+</br>
+
+![image](https://github.com/user-attachments/assets/065c0be7-95df-4d4f-9a15-75342cb4c2d2)
+
+---
+
+> In another caso, only my IP can access the services
+
+
+</br>
+
+#### Case access for Security Group
+</br>
+
+> Let’s say I want multiple virtual machines to have access to MySQL instance. How do I do since all machines have a different IP?
+</br>
+
+
+Nesse caso eu crio uma nova regra de entrada onde ao invés de eu colocar a origem com um IP específico, eu coloco todo o grupo de segurança da API
+
+</br>
+
+
+![image](https://github.com/user-attachments/assets/e3986fda-8edc-44ba-b765-4ea63ca0f69f)
 
 
 
