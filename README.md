@@ -127,6 +127,20 @@ Allows instances in private subnets **to access the internet** (e.g., for update
 
 </br>
 
+
+
+| Characteristic        | Security Group                     | Network ACL (NACL)                            |
+|-----------------------|-------------------------------------|-----------------------------------------------|
+| **Level**             | Instance level (e.g., EC2)          | Subnet level                                   |
+| **Direction**         | Inbound and outbound                | Inbound and outbound                           |
+| **Stateful?**         | Yes (automatically allows return)   | No (requires explicit rule for both directions) |
+| **Rules**             | Allow only                          | Allow and deny                                 |
+| **Attachment**        | Attached to individual resources    | Attached to subnets                            |
+| **Rule Evaluation**   | All rules are evaluated together    | Rules are evaluated in ascending order         |
+
+
+</br>
+
 ![image](https://github.com/user-attachments/assets/0f57f7d5-b097-4393-a2a6-9ced121623e8)
 
 ---
