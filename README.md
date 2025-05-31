@@ -39,6 +39,9 @@ This IP range defines the total address space available to create subnets within
 ---
 
 ### 2. Subnets
+> Subnets are usually referring to availability zones/data centers
+
+</br>
 
 Sub-networks within the VPC. They can be:
 
@@ -103,6 +106,7 @@ Allows instances in private subnets **to access the internet** (e.g., for update
 
 ![image](https://github.com/user-attachments/assets/f1eaea94-56a6-408d-8502-2c85efa703ea)
 
+</br>
 
 > An example of a Public and Private Subnet is a website. Where a site it needs to be public, for people to access it, but the database that links the site information does not need to be public, has to be private.
 
