@@ -278,7 +278,7 @@ Nesse caso eu crio uma nova regra de entrada onde ao invés de eu colocar a orig
 </br>
 
 
-![image](https://github.com/user-attachments/assets/e3986fda-8edc-44ba-b765-4ea63ca0f69f)
+![image](https://github.com/user-attachments/assets/910b4037-b98a-4eaa-bab5-64a1396cf749)
 
 
 
