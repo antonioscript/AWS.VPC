@@ -70,6 +70,8 @@ _Private: 10.0.2.0/24_
 
 </br>
 
+> Every subnet is part of an availability zone
+
 ## Simple Analogies
 
 - `/8` → You control an entire **city** (`10.x.x.x`)
@@ -135,6 +137,14 @@ Allows instances in private subnets **to access the internet** (e.g., for update
 ![image](https://github.com/user-attachments/assets/7607b379-8f81-4766-90a8-18ac178431dc)
 
 ![image](https://github.com/user-attachments/assets/62f749ae-bba7-46c6-a000-0079847dd9d0)
+
+
+## Create VPC
+
+![image](https://github.com/user-attachments/assets/5be98706-eb70-4c7a-9f49-3bb4e5de92c0)
+
+### Subnets
+
 
 ## References
 
