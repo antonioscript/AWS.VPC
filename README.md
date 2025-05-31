@@ -164,6 +164,8 @@ Allows instances in private subnets **to access the internet** (e.g., for update
 
 ![image](https://github.com/user-attachments/assets/1b096fd6-01ca-43e4-a0b5-7b600419c95a)
 
+> The Internet Gateway is used to enable internet for subnets. However, just creating it does not guarantee this access, you need to create a routing table
+
 ---
 #### Atach to VPC
 
@@ -181,11 +183,68 @@ Allows instances in private subnets **to access the internet** (e.g., for update
 ---
 
 ### Route Tables
+![image](https://github.com/user-attachments/assets/7c39635d-1509-4df4-9ea7-a2cfe0f8fe0d)
+
+---
+
+![image](https://github.com/user-attachments/assets/4aa221fd-2b89-4ac8-8cf6-228af04851cc)
+
+---
+
+![image](https://github.com/user-attachments/assets/b8ca0692-e522-47b0-9dee-0408b6e6fba9)
+
+
+----
+
+![image](https://github.com/user-attachments/assets/3b0165d9-d818-422a-85ab-e89fc3718211)
+
+</br>
+
+> From now on the VPC has internet access
+
+> From now on the VPC has access to the internet and consequently the subnets of that VPC also
+
+
+---
+
+### Security Groups
+
+> Security Groups are associated with the resources of that subnet/vpc
+
+![image](https://github.com/user-attachments/assets/88bc62ea-f26d-47eb-8380-515fba0d9a4e)
+
+
+---
+
+![image](https://github.com/user-attachments/assets/bbab2680-797c-42b2-9ea7-97ce0fe0176b)
+
+----
+
+
+
+- All Security Grup belongs to a single VPC
+- Security Grup cannot be used in another VPC (not even in the same region).
+- A VPC can have multiple Security Groups
+  
+> Each resource can use more than one Security Group.For example, an EC2 instance may have up to 5 SGs associated at the same time. The rules of all SGs apply together (are combined).
+
+
+![image](https://github.com/user-attachments/assets/8ef988ca-ab45-4f75-a2b5-f071f326cbe4)
+
+----
+
+- Inbound Rules: Tells which rules are going to be for those who are trying to access a certain resource in a security group
+- Outbound Rules: Tells the rules that this feature has to have when trying to access something out
+
+
+Nessa imagem, em INbound Rules, apenas o meu IP pode acessar os serviços que estão dentro daquele security group
+
+
 
 
 ## References
 
 https://www.youtube.com/watch?v=7_NNlnH7sAg
 
-
+https://www.youtube.com/watch?v=WMsADIgy4ms
 
