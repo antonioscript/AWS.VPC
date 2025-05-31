@@ -43,6 +43,7 @@ In this example, `/16` allows up to **65,536 IP addresses** (from `10.0.0.0` to 
 This IP range defines the total address space available to create subnets within your VPC.
 
 </br>
+
 ![image](https://github.com/user-attachments/assets/58f20c42-f6a3-438a-8a9b-a63132cb113d)
 
 https://cidr.xyz/
