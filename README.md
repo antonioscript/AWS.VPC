@@ -50,6 +50,18 @@ Example:
 _Public: 10.0.1.0/24_  
 _Private: 10.0.2.0/24_
 
+</br>
+
+### Simple Analogies
+
+- `/8` → You control an entire **city** (`10.x.x.x`)
+- `/16` → You control **neighborhoods** (`10.0.x.x`)
+- `/24` → You control **streets** (`10.0.1.x`, `10.0.2.x`, etc.)
+
+With `/24`, each street (the third octet) has **256 houses** (IP addresses).
+
+
+
 ---
 
 ### 3. Internet Gateway (IGW)  
