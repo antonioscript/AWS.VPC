@@ -1,5 +1,6 @@
 # AWS.VPC  
-Theoretical repository on how VPC works in AWS
+This repository provides a clear and structured overview of how Virtual Private Cloud (VPC) works within AWS. It covers core concepts such as CIDR blocks, subnets, route tables, Internet Gateways, NAT, and security layers (Security Groups vs NACLs). Ideal for learners, developers, and cloud engineers seeking to understand or document VPC architecture and networking in a practical, theory-backed way.
+
 
 # Introduction to AWS VPC
 </br>
