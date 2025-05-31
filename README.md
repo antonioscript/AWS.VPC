@@ -143,13 +143,30 @@ Allows instances in private subnets **to access the internet** (e.g., for update
 
 ![image](https://github.com/user-attachments/assets/5be98706-eb70-4c7a-9f49-3bb4e5de92c0)
 
-### Subnets
+### Create Subnets
 
 ![image](https://github.com/user-attachments/assets/fab77381-4760-41ea-a8d6-5f4acb104108)
 
 </br>
 
 ![image](https://github.com/user-attachments/assets/a9e18aec-630b-49fa-a609-976fda67f133)
+
+### Internet Gateway
+
+![image](https://github.com/user-attachments/assets/1b096fd6-01ca-43e4-a0b5-7b600419c95a)
+
+#### Atach to VPC
+
+![image](https://github.com/user-attachments/assets/bbe023b0-9f95-4968-9871-06a17caaff5a)
+
+### DNS Hostnames 
+
+![image](https://github.com/user-attachments/assets/c0b2f2c0-b0db-4e48-8d0b-8944ec0dce7b)
+
+![image](https://github.com/user-attachments/assets/b5cc0081-367f-4df6-98ab-df9336bdc648)
+
+
+### Route Tables
 
 
 ## References
