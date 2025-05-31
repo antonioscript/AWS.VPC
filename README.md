@@ -255,8 +255,7 @@ Allows instances in private subnets **to access the internet** (e.g., for update
 
 ----
 
-![image](https://github.com/user-attachments/assets/6681a6de-9144-4d32-a312-7985bc7e4b17)
-
+![image](https://github.com/user-attachments/assets/c1e2267f-f5dc-4722-af51-cc4cbdad228c)
 
 
 ----
