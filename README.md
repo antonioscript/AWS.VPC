@@ -353,6 +353,8 @@ https://www.youtube.com/watch?v=WMsADIgy4ms
 
 https://www.youtube.com/watch?v=bd4ribSTs-Y
 
+https://www.youtube.com/watch?v=uYDT2SsHImQ
+
 https://www.youtube.com/watch?v=3FumWkHSusY
 > 💡 **Highly recommended:** This last video is both **practical and theoretical**, making it a **must-watch** for anyone trying to deeply understand how VPCs work in real-world AWS environments.
 
