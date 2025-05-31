@@ -16,8 +16,12 @@ This repository provides a clear and structured overview of how Virtual Private 
 - [Example Architecture](#example-architecture)
 - [Console](#console)
 - [Security Groups](#security-groups)
-- [Case access for Security Group](#case-access-for-security-group)
+  - [Case access for Security Group](#case-access-for-security-group)
+- [Bonus](#bonus)
+  - [Accessing Private Resources - Bastion Host (Jump Box)](#accesing-private-resources---bastion-host-jump-box)
+  - [VPC Peering](#vpc-peering)
 - [References](#references)
+
 
 
 # Introduction to AWS VPC
@@ -303,7 +307,7 @@ Allows instances in private subnets **to access the internet** (e.g., for update
 
 </br>
 
-#### Case access for Security Group
+#### Case Access for Security Group
 </br>
 
 > Let’s say I want multiple virtual machines to have access to MySQL instance. How do I do since all machines have a different IP?
