@@ -68,7 +68,7 @@ _Private: 10.0.2.0/24_
 
 </br>
 
-### Simple Analogies
+## Simple Analogies
 
 - `/8` → You control an entire **city** (`10.x.x.x`)
 - `/16` → You control **neighborhoods** (`10.0.x.x`)
@@ -99,6 +99,11 @@ Allows instances in private subnets **to access the internet** (e.g., for update
 
 - **Security Groups**: Firewall at the instance level (e.g., EC2). *Stateful*.  
 - **NACLs (Network ACLs)**: Firewall at the subnet level. *Stateless*.
+
+</br>
+
+![image](https://github.com/user-attachments/assets/0f57f7d5-b097-4393-a2a6-9ced121623e8)
+
 
 ---
 
