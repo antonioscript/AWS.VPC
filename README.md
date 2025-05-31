@@ -1,6 +1,24 @@
 # AWS.VPC  
 This repository provides a clear and structured overview of how Virtual Private Cloud (VPC) works within AWS. It covers core concepts such as CIDR blocks, subnets, route tables, Internet Gateways, NAT, and security layers (Security Groups vs NACLs). Ideal for learners, developers, and cloud engineers seeking to understand or document VPC architecture and networking in a practical, theory-backed way.
 
+## Summary
+
+- [Introduction to AWS VPC](#introduction-to-aws-vpc)
+- [What is a VPC?](#what-is-a-vpc)
+- [Core Components of a VPC](#core-components-of-a-vpc)
+  - [1. CIDR Block](#1-cidr-block)
+  - [2. Subnets](#2-subnets)
+  - [Simple Analogies](#simple-analogies)
+  - [3. Internet Gateway (IGW)](#3-internet-gateway-igw)
+  - [4. Route Tables](#4-route-tables)
+  - [5. NAT Gateway](#5-nat-gateway)
+  - [6. Security Groups vs NACLs](#6-security-groups-vs-nacls)
+- [Example Architecture](#example-architecture)
+- [Console](#console)
+- [Security Groups](#security-groups)
+- [Case access for Security Group](#case-access-for-security-group)
+- [References](#references)
+
 
 # Introduction to AWS VPC
 </br>
