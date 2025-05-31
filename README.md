@@ -99,3 +99,22 @@ Allows instances in private subnets **to access the internet** (e.g., for update
 7. Use Security Groups and NACLs to protect the resources  
 
 ---
+## Console
+
+![image](https://github.com/user-attachments/assets/f1eaea94-56a6-408d-8502-2c85efa703ea)
+
+
+> An example of a Public and Private Subnet is a website. Where a site it needs to be public, for people to access it, but the database that links the site information does not need to be public, has to be private.
+
+</br>
+
+![image](https://github.com/user-attachments/assets/7607b379-8f81-4766-90a8-18ac178431dc)
+
+![image](https://github.com/user-attachments/assets/62f749ae-bba7-46c6-a000-0079847dd9d0)
+
+## References
+
+https://www.youtube.com/watch?v=7_NNlnH7sAg
+
+
+
